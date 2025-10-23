@@ -2,7 +2,7 @@
 
 ## Summary
 
-ezBookkeeping versions 1.2.0 and earlier contain a critical vulnerability in JSON and XML file import processing. The application fails to validate nesting depth during parsing operations, allowing authenticated attackers to trigger denial of service conditions by uploading deeply nested malicious files. This results in CPU exhaustion, service degradation, or complete service unavailability.
+ezBookkeeping [https://github.com/mayswind/ezbookkeeping](https://github.com/mayswind/ezbookkeeping) versions 1.2.0 and earlier contain a critical vulnerability in JSON and XML file import processing. The application fails to validate nesting depth during parsing operations, allowing authenticated attackers to trigger denial of service conditions by uploading deeply nested malicious files. This results in CPU exhaustion, service degradation, or complete service unavailability.
 
 **Confirmed Vulnerable Components**:
 - JSON import module (`pkg/converters/default/`)
